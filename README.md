@@ -54,7 +54,7 @@ This Streamlit web application predicts housing prices based on several input fe
 3. Click the "Predict" button to see the predicted housing price.
 
 ## Model Details
-The model used in this application is a regression model trained on the California Housing dataset. The model is pickled and loaded in the app, including all preprocessing steps such as feature scaling and encoding.
+The model used in this application is a Random Forest regression model trained on the California Housing dataset. The model was tuned using Random Search CV to optimize the hyperparameters, ensuring the best possible performance. Other models, such as Linear Regression and Decision Trees, were also tried during the model development process. However, Random Forest provided the lowest Root Mean Squared Error (RMSE), making it the best choice for this prediction task. The model is pickled and loaded in the app, including all preprocessing steps such as feature scaling and encoding.
 
 ## Input Features
 - **Housing Median Age**: The median age of the houses in the block.
