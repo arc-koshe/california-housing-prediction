@@ -11,7 +11,6 @@ This project is a simple web application that predicts housing prices using a pr
 - [Error Handling](#error-handling)
 - [Acknowledgements](#acknowledgements)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 This Streamlit web application predicts housing prices based on several input features. The model used in the app is pre-trained and stored in a pickle file. The application includes all necessary preprocessing steps, ensuring that the inputs are correctly processed before making predictions.
